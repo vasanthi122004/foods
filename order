@@ -1,0 +1,36 @@
+#include<iostream.h>
+#include<iomanip.h>
+#includestdio.h>
+void main()
+{
+  int n;
+  printf("enter a number from 1 to 5");
+  scanf("%d",n);
+  
+  switch(n)
+  {
+    case 1:
+      printf("food item - pizza");
+      printf("price - 239");
+    break;
+    case 2:
+      printf("food item - burger");
+      printf("price - 129");
+    break;
+    case 3:
+      printf("food item - pastha");
+      printf("price - 179");
+    break;
+    case 4:
+      printf("food item -french fries ");
+      printf("price - 99");
+    break;
+    case 5:
+      printf("food item -sandwich ");
+      printf("price - 149");
+    break;
+    default:
+    printf("no choice");
+  }
+ return(0);
+}
